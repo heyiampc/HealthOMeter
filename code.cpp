@@ -44,6 +44,8 @@ void setup() {
     Serial.println("Error: MAX30102 not found, try cycling power to the board...");
     // indicate fault by blinking the board LED rapidly
     while (1){
+//       kjabsiybacn;a
+//       .;lacncuabon'ca
       digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
       delay(100);
       }
